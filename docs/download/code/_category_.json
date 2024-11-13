@@ -1,0 +1,8 @@
+{
+  "label": "Utilisation du code source",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Vous pouvez également compiler vous même le fichier apk de OuiChat pour utilisé votre propre base de données Firestore"
+  }
+}

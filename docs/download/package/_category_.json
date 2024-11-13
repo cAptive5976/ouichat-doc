@@ -1,0 +1,8 @@
+{
+  "label": "Package Android (apk)",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Un fichier apk est fourni sur le dépot GitHub du projet, vous pouvez également le trouver ici"
+  }
+}

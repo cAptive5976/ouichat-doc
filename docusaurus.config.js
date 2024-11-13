@@ -6,31 +6,21 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'OuiChat',
-  tagline: 'Projet SAE303 du BUT Réseaux et Télécommunications de l\'UCA',
+  tagline: 'Projet SAE302 du BUT Réseaux et Télécommunications de l\'UCA',
   favicon: 'img/favicon.png',
 
-  // Set the production url of your site here
   url: 'https://ouichat.charlesmj.fr',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'cAptive5976',
   projectName: 'ouichat',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr',
     locales: ['fr'],
@@ -43,10 +33,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/cAptive5976/ouichat-doc/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,7 +46,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'OuiChat',
@@ -69,9 +56,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'documentationSidebar',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'downloadSidebar',
+            position: 'left',
+            label: 'Téléchargement',
           },
           {
             href: 'https://github.com/cAptive5976/ouichat',
