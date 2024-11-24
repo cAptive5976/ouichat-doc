@@ -80,16 +80,12 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'Introduction',
-                to: '/docs/intro',
-              },
-              {
                 label: 'OuiChat',
-                to: '/docs/ouichat',
+                to: '/docs/documentation/intro',
               },
               {
                 label: 'OuiContact',
-                to: '/docs/ouicontact',
+                to: '/docs/documentation/ouicontact/intro',
               },
             ],
           },
