@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Classe Post.java
+# Classe des posts
 
 La classe `Post` représente une publication dans l'application **OuiChat**. Chaque publication correspond à un document dans la collection **Posts** sur Firestore. Elle contient les informations relatives à la publication, telles que le contenu, l'utilisateur qui a créé le post, le nombre de likes, et la date de création.
 

@@ -81,15 +81,15 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/intro',
+                to: '/docs/documentation/intro',
               },
               {
                 label: 'OuiChat',
-                to: '/docs/ouichat',
+                to: '/docs/category/documentation-du-code',
               },
               {
                 label: 'OuiContact',
-                to: '/docs/ouicontact',
+                to: '/docs/documentation/intro',
               },
             ],
           },
